@@ -9,7 +9,6 @@ The sample python flask app here is designed to demonstrate what a typical pytho
 You can see the CI pipelines for this application running [live on CircleCI](https://app.circleci.com/pipelines/github/CircleCI-Public/sample-python-cfd?branch=main).
 
 In this sample config, we have a single workflow `build-and-test` which will install and cache our required python packages, and then run tests with `pytest`, a common python testing framework. This config makes use of the [Python orb](https://circleci.com/developer/orbs/orb/circleci/python), a package for CircleCI's config language, which makes writing our config shorter, and easier.
-
 ## Getting Started
 
 If you would like to copy the [config.yml](https://github.com/CircleCI-public/sample-python-cfd/blob/main/.circleci/config.yml) and adapt it to your project, be sure to read the comments in the config file to ensure it works for your project. For more details, see the [CircleCI configuration reference](https://circleci.com/docs/2.0/configuration-reference/).
